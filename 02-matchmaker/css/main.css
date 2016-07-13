@@ -99,6 +99,15 @@ h3 {
 	padding: 0;
 }
 
+p{
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 150% ;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+}
+
 a {
 	text-decoration: none;
 	font-size: 20px;
@@ -108,7 +117,7 @@ a {
   	border-radius: 5px;
   	width: auto;
   	text-align: center;
-  	padding: 1% 5%;
+  	padding: 2% 5%;
   	margin: 4% auto;
   
 }
@@ -121,7 +130,7 @@ a {
   	border-radius: 5px;
   	width: auto;
   	text-align: center;
-  	padding: 1% 5%;
+  	padding: 2% 5%;
   	margin: 2% auto;
 
 }
@@ -140,15 +149,26 @@ h4{
 	margin: 0 1%;
 }
 
-.box{
-	float: right;
+.box {
+	float: left;
 	height: auto;
 	width: 20%;
-	margin: 1% 2% 1% 0;
+	margin:0 2% 0 0;
 	padding: 5%;
-
+	border-right: #bdbdbd solid;
 
 }
+
+.box2 {
+	float: left;
+	height: auto;
+	width: 20%;
+	margin: 0 2% 0 0;
+	padding: 5%;
+	border-right: none;
+
+}
+
 
 footer {
 	width: 100%;
