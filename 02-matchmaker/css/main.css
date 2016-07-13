@@ -1,5 +1,14 @@
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
 body {
-	margin: 0px;
+	margin: 0 auto;
 }
 
 header {
@@ -10,6 +19,7 @@ header {
 	border-color: yellow;
 	border-style: solid;
 	margin: 0px;
+	padding: 10px;
 }
 
 .logo {
@@ -23,7 +33,7 @@ ul {
 	white-space: nowrap;
 	position: static;
 	padding: 10px 180px;
-	margin: 0px;
+	margin: 0 0 0 25%;
 }
 
 li {
@@ -36,16 +46,129 @@ li {
 
 .nav-caps {
 	font-size: 26px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0;
+
 }
 
 .tagline {
 	width:100%;
-	background-color: grey;
+	background-color: #ababab;
 	text-align: center;
-	padding: 5px;
 	margin: 0px;
-	line-height: 0px;
 }
+
+.main {
+ 	background: url(../images/coworking.jpg) no-repeat center;
+ 	background-size: cover;
+ 	height: 664px;
+ 	margin: 0;
+
+}
+
+.main-callout {
+	float: right;
+	height: auto;
+	width: 40%;
+	margin: 2% 2% 2% 0;
+	padding: 3%;
+	background: rgba(255, 255, 255, .7);
+	border: gray 1px;
+	box-shadow: 3px 3px 3px #6b6b6b;
+
+}
+
+.main-callout p{
+	line-height: 150%;
+
+}
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	line-height: 150% ;
+	margin: 0 0 20px 0;
+	padding: 0;
+
+}
+
+a {
+	text-decoration: none;
+	font-size: 20px;
+  	color: black;
+  	background-color: #ababab;
+  	border: 0 solid;
+  	border-radius: 5px;
+  	width: auto;
+  	text-align: center;
+  	padding: 2% 5%;
+  	margin: 4% auto;
+  
+}
+
+.yellow-button {
+  	font-size: 20px;
+  	color: black;
+  	background-color: yellow;
+  	border: 0 solid;
+  	border-radius: 5px;
+  	width: auto;
+  	text-align: center;
+  	padding: 2% 5%;
+  	margin: 2% auto;
+
+}
+
+
+h4{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+
+}
+
+.content{
+	margin: 0 1%;
+}
+
+.box {
+	float: left;
+	height: auto;
+	width: 20%;
+	margin:0 2% 0 0;
+	padding: 5%;
+	border-right: #bdbdbd solid;
+
+}
+
+.box2 {
+	float: left;
+	height: auto;
+	width: 20%;
+	margin: 0 2% 0 0;
+	padding: 5%;
+	border-right: none;
+
+}
+
 
 footer {
 	width: 100%;
