@@ -19,21 +19,19 @@ header {
 	border-color: yellow;
 	border-style: solid;
 	margin: 0px;
-	padding: 10px;
+	padding: 10px 0 10px 10px;
 }
 
 .logo {
-	position: static;
 	color: yellow;
 	font-size: 40px;
 	font-family: times serif;
 	margin: 0px;
 }
 ul {
-	white-space: nowrap;
-	position: static;
+	float: right;
 	padding: 10px 180px;
-	margin: 0 0 0 25%;
+	margin: 0 0 0 0;
 }
 
 li {
@@ -64,6 +62,18 @@ h2{
 	background-color: #ababab;
 	text-align: center;
 	margin: 0px;
+	padding: 20px 0;
+	font-style: italic;
+}
+
+.delete{
+	text-decoration: line-through;
+	color: #998;
+}
+
+.underline{
+	text-decoration: none;
+	border-bottom: 3px solid yellow;
 }
 
 .main {
